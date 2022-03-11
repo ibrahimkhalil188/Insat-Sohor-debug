@@ -62,9 +62,10 @@
         <h5>How does javascript work.</h5>
 
         <h5>What does js event loop do?</h5>
-        <p>Event loop work, like as an assistant of the call stack and call queue. when call stack gets asynchronous
-            function then immediately set it to web api after completing the task web api sent it to call queue. when
-            call stack has no function to execute event loop run a loop and take function from call queue and sent it to
+        <p>Event loop works, like as an assistant of call stack and call queue. when call stack gets asynchronous
+            function then immediately sent it to web api. After completing the task web api sent it to call queue. when
+            call queue get a function event loop start checking call stack empty or has any function if it's empty or
+            has no function to execute event loop run a loop and take function from call queue and sent it to
             call stack and then call stack run that function.
             Note: call stack follow LIFO(last in fast out) rules ans call queue follow FIFO(first in first out)rules.
         </p>
