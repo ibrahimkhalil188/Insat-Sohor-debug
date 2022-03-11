@@ -59,13 +59,33 @@
     </main>
     <section class="container mt-5">
         <h1 class="p-3 text-success">Writen part question ans</h1>
+        <h5>How does javascript work.</h5>
 
         <h5>What does js event loop do?</h5>
         <p>Event loop work, like as an assistant of the call stack and call queue. when call stack gets asynchronous
             function then immediately set it to web api after completing the task web api sent it to call queue. when
-            call stack has no function to execute event loop run a loop and take function from call queue and set it to
+            call stack has no function to execute event loop run a loop and take function from call queue and sent it to
             call stack and then call stack run that function.
-            Note: call stack follow LIFI(last in fast out) rules ans call queue follow FIFO(first in first out)rules.
+            Note: call stack follow LIFO(last in fast out) rules ans call queue follow FIFO(first in first out)rules.
+        </p>
+        <h5>Local storage vs session storage</h5>
+        <p>
+        <ul style="list-style-type:circle;">
+            <H6>local storage</H6>
+            <li>
+                local storage store data for a long time even i close the tab or shut down the computer. Data of local
+                storage
+                will never be removed if i don't remove data from local storage.
+            </li>
+            <li>
+                local storage can store 5/10MB data
+            </li><br>
+            <h6>session storage</h6>
+            <li>session storage store data for short time or for only one session when we close our browser or shut down
+                our pc data will be removed.
+            </li>
+            <li>session storage can store 5MB of data</li>
+        </ul>
         </p>
     </section>
     <footer></footer>
